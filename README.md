@@ -26,4 +26,4 @@ module.exports = require("@youngjuning/prettier-config");
 
 ## Related repos
 
-- [@youngjuning/eslint-config](https://github/youngjuning/eslint-config)
+- [@youngjuning/eslint-config](https://github.com/youngjuning/eslint-config)
