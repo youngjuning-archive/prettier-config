@@ -1,0 +1,28 @@
+{
+  "name": "@youngjuning/prettier-config",
+  "version": "1.0.0",
+  "description": "my prettier config",
+  "keywords": [
+    "eslint-config",
+    "prettier",
+    "typescript"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postversion": "git push --tags && git push && npm publish"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/youngjuning/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngjuning/prettier-config.git"
+  },
+  "author": {
+    "name": "杨俊宁",
+    "email": "1003719811@qq.com",
+    "url": "https://youngjuning.js.org"
+  }
+}
