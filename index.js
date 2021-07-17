@@ -1,23 +1,23 @@
 module.exports = {
-  printWidth: 100, // 一行的字符数，如果超过会进行换行，默认为80
-  tabWidth: 2, // tab缩进大小,默认为2
-  useTabs: false, // 使用tab缩进，默认false
-  semi: true, // 使用分号, 默认true
+  printWidth: 100, // 一行的字符数，如果超过会进行换行，默认为 80
+  tabWidth: 2, // tab 缩进大小,默认为 2
+  useTabs: false, // 使用 tab 缩进，默认 false
+  semi: true, // 使用分号, 默认 true
   /**
-   * 行尾逗号,默认none,可选 none|es5|all
-   * es5 包括es5中的数组、对象
+   * 行尾逗号,默认 none,可选 none|es5|all
+   * es5 包括 es5 中的数组、对象
    * all 包括函数对象等所有可选
    */
   trailingComma: 'es5',
-  singleQuote: true, // 使用单引号, 默认false(在jsx中配置无效, 默认都是双引号)
+  singleQuote: true, // 使用单引号, 默认 false (在 jsx 中配置无效, 默认都是双引号)
   /**
-   * 对象中的空格 默认true
+   * 对象中的空格 默认 true
    * true: { foo: bar }
    * false: {foo: bar}
    */
   bracketSpacing: true,
   /**
-   * JSX标签闭合位置 默认false
+   * JSX 标签闭合位置 默认 false
    * false:
    * <div
    *  className=""
